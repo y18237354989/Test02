@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.white;
         
-        btn = UIButton.init()
+        let btn = UIButton.init()
         self.view.addSubview(btn)
     }
 
